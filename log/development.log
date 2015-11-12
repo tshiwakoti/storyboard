@@ -1258,3 +1258,67 @@ Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-10-28 17:22:59 -0700
 
 
 Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-10-28 17:22:59 -0700
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/Abhi/Desktop/storyboard/app/models/user.rb:8)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/Abhi/Desktop/storyboard/app/models/user.rb:8)
+  [1m[36mUser Load (3.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/Abhi/Desktop/storyboard/app/models/user.rb:8)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/Abhi/Desktop/storyboard/app/models/user.rb:8)
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/Abhi/Desktop/storyboard/app/models/user.rb:8)
+DEPRECATION WARNING: Currently, Active Record suppresses errors raised within `after_rollback`/`after_commit` callbacks and only print them to the logs. In the next version, these errors will no longer be suppressed. Instead, the errors will propagate normally just like in other Active Record callbacks.
+
+You can opt into the new behavior and remove this warning by setting:
+
+  config.active_record.raise_in_transactional_callbacks = true
+
+ (called from <class:User> at /Users/Abhi/Desktop/storyboard/app/models/user.rb:8)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 19:32:30 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#landing as HTML
+  Rendered pages/landing.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 437ms (Views: 426.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-11-09 19:32:34 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/Abhi/.rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/shared/_links.html.erb (1.9ms)
+  Rendered /Users/Abhi/.rvm/gems/ruby-2.2.1/gems/devise-3.5.1/app/views/devise/sessions/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 175ms (Views: 151.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-11-09 19:32:40 -0800
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-11-09 19:32:41 -0800

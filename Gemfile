@@ -52,6 +52,7 @@ gem 'rmagick'
 gem 'simple_form'
 gem 'pg'
 gem 'thin'
+gem 'hirb'
 
 gem 'eventmachine' # , '>=1.07'
 

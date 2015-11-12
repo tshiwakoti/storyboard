@@ -163,6 +163,7 @@ GEM
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
     hashie (3.4.2)
+    hirb (0.7.3)
     http (0.6.4)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
@@ -401,6 +402,7 @@ DEPENDENCIES
   guard
   guard-cucumber
   guard-rspec
+  hirb
   intercom-rails
   jbuilder
   jquery-rails
